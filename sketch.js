@@ -6,6 +6,7 @@ let hat = 10;
 
 
 function setup() {
+  frameRate();
   createCanvas(400, 400);
 }
 //  fill(255,207,124); brown reg
@@ -57,10 +58,10 @@ rect(width * 0.90, height * 0.70,width * 0.045, height * 0.045);
 
 
 
-    
-    
-    
-  }  
+
+
+
+  }
 function drawLBody(){
 //black arms right
 fill(20,20,20);
@@ -75,59 +76,59 @@ rect(width * 0.80, height * 0.80,width * 0.045, height * 0.045);
 
 //black arms left
 fill(20,20,20);
-rect(width * 0.05, height * 0.85,width * 0.045, height * 0.045);  
-rect(width * 0.05, height * 0.80,width * 0.045, height * 0.045);  
-rect(width * 0.05, height * 0.75,width * 0.045, height * 0.045);  
-rect(width * 0.15, height * 0.90,width * 0.045, height * 0.045);  
-rect(width * 0.10, height * 0.90,width * 0.045, height * 0.045);  
-rect(width * 0.20, height * 0.85,width * 0.045, height * 0.045);  
-rect(width * 0.15, height * 0.80,width * 0.045, height * 0.045);  
+rect(width * 0.05, height * 0.85,width * 0.045, height * 0.045);
+rect(width * 0.05, height * 0.80,width * 0.045, height * 0.045);
+rect(width * 0.05, height * 0.75,width * 0.045, height * 0.045);
+rect(width * 0.15, height * 0.90,width * 0.045, height * 0.045);
+rect(width * 0.10, height * 0.90,width * 0.045, height * 0.045);
+rect(width * 0.20, height * 0.85,width * 0.045, height * 0.045);
+rect(width * 0.15, height * 0.80,width * 0.045, height * 0.045);
 
 //body white, bottom middle
 fill(255,255,255);
-rect(width * 0.35, height * 0.90,width * 0.045, height * 0.045);  
-rect(width * 0.40, height * 0.90,width * 0.045, height * 0.045);  
-rect(width * 0.45, height * 0.90,width * 0.045, height * 0.045);  
-rect(width * 0.50, height * 0.90,width * 0.045, height * 0.045);  
-rect(width * 0.55, height * 0.90,width * 0.045, height * 0.045);  
-rect(width * 0.60, height * 0.90,width * 0.045, height * 0.045);  
+rect(width * 0.35, height * 0.90,width * 0.045, height * 0.045);
+rect(width * 0.40, height * 0.90,width * 0.045, height * 0.045);
+rect(width * 0.45, height * 0.90,width * 0.045, height * 0.045);
+rect(width * 0.50, height * 0.90,width * 0.045, height * 0.045);
+rect(width * 0.55, height * 0.90,width * 0.045, height * 0.045);
+rect(width * 0.60, height * 0.90,width * 0.045, height * 0.045);
 
 //second top middle
-rect(width * 0.40, height * 0.85,width * 0.045, height * 0.045);  
-rect(width * 0.45, height * 0.85,width * 0.045, height * 0.045);  
-rect(width * 0.50, height * 0.85,width * 0.045, height * 0.045);  
-rect(width * 0.55, height * 0.85,width * 0.045, height * 0.045); 
-  
+rect(width * 0.40, height * 0.85,width * 0.045, height * 0.045);
+rect(width * 0.45, height * 0.85,width * 0.045, height * 0.045);
+rect(width * 0.50, height * 0.85,width * 0.045, height * 0.045);
+rect(width * 0.55, height * 0.85,width * 0.045, height * 0.045);
+
 //white arms
 fill(255,255,255);
-rect(width * 0.15, height * 0.85,width * 0.045, height * 0.045);  
-rect(width * 0.80, height * 0.85,width * 0.045, height * 0.045);  
+rect(width * 0.15, height * 0.85,width * 0.045, height * 0.045);
+rect(width * 0.80, height * 0.85,width * 0.045, height * 0.045);
 
 //brown arms right
 fill(244,183,80);
-rect(width * 0.85, height * 0.85,width * 0.045, height * 0.045);  
-rect(width * 0.85, height * 0.80,width * 0.045, height * 0.045);  
-rect(width * 0.85, height * 0.75,width * 0.045, height * 0.045);  
-  
+rect(width * 0.85, height * 0.85,width * 0.045, height * 0.045);
+rect(width * 0.85, height * 0.80,width * 0.045, height * 0.045);
+rect(width * 0.85, height * 0.75,width * 0.045, height * 0.045);
+
 //brown arms left
 fill(244,183,80);
-rect(width * 0.10, height * 0.85,width * 0.045, height * 0.045);  
-rect(width * 0.10, height * 0.80,width * 0.045, height * 0.045);  
-rect(width * 0.10, height * 0.75,width * 0.045, height * 0.045);  
-  
+rect(width * 0.10, height * 0.85,width * 0.045, height * 0.045);
+rect(width * 0.10, height * 0.80,width * 0.045, height * 0.045);
+rect(width * 0.10, height * 0.75,width * 0.045, height * 0.045);
+
 //shades body
 fill(244,183,80);
-rect(width * 0.20, height * 0.90,width * 0.045, height * 0.045);  
-rect(width * 0.25, height * 0.85,width * 0.045, height * 0.045);  
-rect(width * 0.70, height * 0.85,width * 0.045, height * 0.045); 
-rect(width * 0.75, height * 0.90,width * 0.045, height * 0.045); 
-  
+rect(width * 0.20, height * 0.90,width * 0.045, height * 0.045);
+rect(width * 0.25, height * 0.85,width * 0.045, height * 0.045);
+rect(width * 0.70, height * 0.85,width * 0.045, height * 0.045);
+rect(width * 0.75, height * 0.90,width * 0.045, height * 0.045);
+
 //brown body
 fill(255,207,124);
-rect(width * 0.70, height * 0.90,width * 0.045, height * 0.045); 
-rect(width * 0.65, height * 0.90,width * 0.045, height * 0.045); 
-rect(width * 0.25, height * 0.90,width * 0.045, height * 0.045); 
-rect(width * 0.30, height * 0.90,width * 0.045, height * 0.045); 
+rect(width * 0.70, height * 0.90,width * 0.045, height * 0.045);
+rect(width * 0.65, height * 0.90,width * 0.045, height * 0.045);
+rect(width * 0.25, height * 0.90,width * 0.045, height * 0.045);
+rect(width * 0.30, height * 0.90,width * 0.045, height * 0.045);
 
 //top brown body
 fill(255,207,124);
@@ -135,7 +136,7 @@ rect(width * 0.65, height * 0.85,width * 0.045, height * 0.045);
 rect(width * 0.60, height * 0.85,width * 0.045, height * 0.045);
 rect(width * 0.35, height * 0.85,width * 0.045, height * 0.045);
 rect(width * 0.30, height * 0.85,width * 0.045, height * 0.045);
-  
+
 //collar red
 fill(255,68,68);
 rect(width * 0.15, height * 0.75,width * 0.045, height * 0.045);
@@ -150,13 +151,13 @@ rect(width * 0.65, height * 0.80,width * 0.045, height * 0.045);
 rect(width * 0.70, height * 0.80,width * 0.045, height * 0.045);
 rect(width * 0.75, height * 0.80,width * 0.045, height * 0.045);
 rect(width * 0.80, height * 0.75,width * 0.045, height * 0.045);
-  
+
 //collar yellow
 fill(collar,collar2,collar3);
 rect(width * 0.45, height * 0.80,width * 0.045, height * 0.045);
 rect(width * 0.50, height * 0.80,width * 0.045, height * 0.045);
-  
-  //first color 
+
+  //first color
 if (key === 'q'){
   collar = 255;
 } else if (key === 'w'){
@@ -171,8 +172,8 @@ if (key === 'q'){
   else if (key === 't'){
   collar = 0;
 }
-  
-  
+
+
   //second color
   if (key === 'a'){
   collar2 = 255;
@@ -189,7 +190,7 @@ if (key === 'q'){
   collar2 = 0;
 }
 
-  
+
 //third collar
   if (key === 'z'){
   collar3 = 0;
@@ -242,7 +243,7 @@ rect(width * 0.05, height * 0.40,width * 0.045, height * 0.045);
 rect(width * 0.05, height * 0.35,width * 0.045, height * 0.045);
 rect(width * 0.05, height * 0.30,width * 0.045, height * 0.045);
 
-  
+
 //mouth going up right
 fill(20,20,20);
 rect(width * 0.80, height * 0.70,width * 0.045, height * 0.045);
@@ -278,7 +279,7 @@ rect(width * 0.90, height * 0.05,width * 0.045, height * 0.045);
 rect(width * 0.85, height * 0.05,width * 0.045, height * 0.045);
 rect(width * 0.80, height * 0.10,width * 0.045, height * 0.045);
 rect(width * 0.75, height * 0.15,width * 0.045, height * 0.045);
-  
+
 //head middle "right to left"
 fill(20,20,20);
 rect(width * 0.70, height * 0.20,width * 0.045, height * 0.045);
@@ -295,7 +296,7 @@ rect(width * 0.30, height * 0.10,width * 0.045, height * 0.045);
 rect(width * 0.30, height * 0.15,width * 0.045, height * 0.045);
 rect(width * 0.25, height * 0.15,width * 0.045, height * 0.045);
 rect(width * 0.25, height * 0.20,width * 0.045, height * 0.045);
-  
+
 
 
 
@@ -314,7 +315,7 @@ rect(width * 0.10, height * 0.15,width * 0.045, height * 0.045);
 rect(width * 0.10, height * 0.20,width * 0.045, height * 0.045);
 rect(width * 0.85, height * 0.15,width * 0.045, height * 0.045);
 rect(width * 0.85, height * 0.20,width * 0.045, height * 0.045);
-  
+
 //ear shade "left to right"
 fill(244,183,80); // shade
 rect(width * 0.10, height * 0.10,width * 0.045, height * 0.045);
@@ -329,7 +330,7 @@ fill(255,207,124);
 rect(width * 0.80, height * 0.20,width * 0.045, height * 0.045);
 rect(width * 0.15, height * 0.20,width * 0.045, height * 0.045);
 
-  
+
 }
 
 function drawHeadInside(){
@@ -377,7 +378,7 @@ rect(width * 0.70, height * 0.50,width * 0.045, height * 0.045);
 rect(width * 0.75, height * 0.50,width * 0.045, height * 0.045);
 rect(width * 0.80, height * 0.45,width * 0.045, height * 0.045);
 
-  
+
 //inside head reg top
 fill(255,207,124);//brown reg
 rect(width * 0.35, height * 0.20,width * 0.045, height * 0.045);
@@ -387,9 +388,9 @@ rect(width * 0.50, height * 0.20,width * 0.045, height * 0.045);
 rect(width * 0.55, height * 0.20,width * 0.045, height * 0.045);
 rect(width * 0.60, height * 0.20,width * 0.045, height * 0.045);
 
-  
+
 //top second
-fill(255,207,124);//brown reg  
+fill(255,207,124);//brown reg
 rect(width * 0.15, height * 0.25,width * 0.045, height * 0.045);
 rect(width * 0.20, height * 0.25,width * 0.045, height * 0.045);
 rect(width * 0.25, height * 0.25,width * 0.045, height * 0.045);
@@ -406,7 +407,7 @@ rect(width * 0.75, height * 0.25,width * 0.045, height * 0.045);
 rect(width * 0.80, height * 0.25,width * 0.045, height * 0.045);
 
 //top third layer
-fill(255,207,124);//brown reg  
+fill(255,207,124);//brown reg
 rect(width * 0.15, height * 0.30,width * 0.045, height * 0.045);
 rect(width * 0.30, height * 0.30,width * 0.045, height * 0.045);
 rect(width * 0.35, height * 0.30,width * 0.045, height * 0.045);
@@ -417,10 +418,10 @@ rect(width * 0.55, height * 0.30,width * 0.045, height * 0.045);
 rect(width * 0.60, height * 0.30,width * 0.045, height * 0.045);
 rect(width * 0.65, height * 0.30,width * 0.045, height * 0.045);
 rect(width * 0.80, height * 0.30,width * 0.045, height * 0.045);
-  
-  
+
+
 //top fourth layer
-fill(255,207,124);//brown reg  
+fill(255,207,124);//brown reg
 rect(width * 0.15, height * 0.35,width * 0.045, height * 0.045);
 rect(width * 0.20, height * 0.35,width * 0.045, height * 0.045);
 rect(width * 0.25, height * 0.35,width * 0.045, height * 0.045);
@@ -433,10 +434,10 @@ rect(width * 0.60, height * 0.35,width * 0.045, height * 0.045);
 rect(width * 0.70, height * 0.35,width * 0.045, height * 0.045);
 rect(width * 0.75, height * 0.35,width * 0.045, height * 0.045);
 rect(width * 0.80, height * 0.35,width * 0.045, height * 0.045);
-  
-  
+
+
 //top fifth layer
-fill(255,207,124);//brown reg  
+fill(255,207,124);//brown reg
 rect(width * 0.15, height * 0.40,width * 0.045, height * 0.045);
 rect(width * 0.30, height * 0.40,width * 0.045, height * 0.045);
 rect(width * 0.35, height * 0.40,width * 0.045, height * 0.045);
@@ -447,10 +448,10 @@ rect(width * 0.55, height * 0.40,width * 0.045, height * 0.045);
 rect(width * 0.60, height * 0.40,width * 0.045, height * 0.045);
 rect(width * 0.65, height * 0.40,width * 0.045, height * 0.045);
 rect(width * 0.80, height * 0.40,width * 0.045, height * 0.045);
-  
+
 
 //top sixth layer
-fill(255,207,124);//brown reg  
+fill(255,207,124);//brown reg
 rect(width * 0.30, height * 0.45,width * 0.045, height * 0.045);
 rect(width * 0.35, height * 0.45,width * 0.045, height * 0.045);
 rect(width * 0.60, height * 0.45,width * 0.045, height * 0.045);
@@ -474,19 +475,19 @@ fill(20,20,20); //black eye left
 rect(width * 0.75, height * 0.40,width * 0.045, height * 0.045);
 rect(width * 0.75, height * 0.45,width * 0.045, height * 0.045);
 rect(width * 0.70, height * 0.45,width * 0.045, height * 0.045);
-  
+
 //eyebrow left
 fill(255,255,255); //white
 rect(width * 0.30, height * 0.35,width * 0.045, height * 0.045);
 rect(width * 0.20, height * 0.30,width * 0.045, height * 0.045);
 rect(width * 0.25, height * 0.30,width * 0.045, height * 0.045);
-  
+
 //eyebrow right
 fill(255,255,255); //white
 rect(width * 0.65, height * 0.35,width * 0.045, height * 0.045);
 rect(width * 0.70, height * 0.30,width * 0.045, height * 0.045);
 rect(width * 0.75, height * 0.30,width * 0.045, height * 0.045);
-  
+
 }
 
 function drawNose(){
@@ -494,19 +495,19 @@ function drawNose(){
 fill(50,50,50); //light gray
 rect(width * 0.40, height * 0.50,width * 0.045, height * 0.045);
 rect(width * 0.55, height * 0.50,width * 0.045, height * 0.045);
-  
+
 //nose top dark
 fill(20,20,20);
 rect(width * 0.45, height * 0.50,width * 0.045, height * 0.045);
 rect(width * 0.50, height * 0.50,width * 0.045, height * 0.045);
-  
+
 //bottom nose
 fill(20,20,20);
 rect(width * 0.40, height * 0.55,width * 0.045, height * 0.045);
 rect(width * 0.45, height * 0.55,width * 0.045, height * 0.045);
 rect(width * 0.50, height * 0.55,width * 0.045, height * 0.045);
 rect(width * 0.55, height * 0.55,width * 0.045, height * 0.045);
-  
+
 //nose line
 fill(20,20,20);
 rect(width * 0.45, height * 0.60,width * 0.045, height * 0.045);
@@ -527,7 +528,7 @@ rect(width * 0.55, height * 0.65,width * 0.045, height * 0.045);
 rect(width * 0.60, height * 0.65,width * 0.045, height * 0.045);
 rect(width * 0.65, height * 0.65,width * 0.045, height * 0.045);
 rect(width * 0.70, height * 0.60,width * 0.045, height * 0.045);
-  
+
 //mouth white left to right "left side"
 fill(255);
 rect(width * 0.10, height * 0.45,width * 0.045, height * 0.045);
@@ -553,7 +554,7 @@ rect(width * 0.30, height * 0.70,width * 0.045, height * 0.045);
 rect(width * 0.35, height * 0.70,width * 0.045, height * 0.045);
 rect(width * 0.40, height * 0.70,width * 0.045, height * 0.045);
 rect(width * 0.45, height * 0.70,width * 0.045, height * 0.045);
-  
+
   //mouth right to left "right side"
 fill(255);
 rect(width * 0.85, height * 0.45,width * 0.045, height * 0.045);
@@ -582,8 +583,8 @@ rect(width * 0.50, height * 0.70,width * 0.045, height * 0.045);
 
 
 
-  
-  
+
+
 }
 
 function drawSunglasses(){
@@ -606,7 +607,7 @@ rect(width * (value + 0.20), height * 0.50,width * 0.045, height * 0.045);
 rect(width * (value + 0.25), height * 0.45,width * 0.045, height * 0.045);
 rect(width * (value + 0.30), height * 0.40,width * 0.045, height * 0.045);
 rect(width * (value + 0.35), height * 0.40,width * 0.045, height * 0.045);
-  
+
 //right part of sunglasses
 rect(width * (value + 0.40), height * 0.40,width * 0.045, height * 0.045);
 rect(width * (value + 0.45), height * 0.40,width * 0.045, height * 0.045);
@@ -634,9 +635,9 @@ if (keyCode === LEFT_ARROW){
 } else if (keyCode === RIGHT_ARROW){
   value = 0.10;
 }
-  
 
-  
+
+
 }
 
 function drawChefHat(){
@@ -689,11 +690,11 @@ rect(width * (hat + 0.55), height * 0.20,width * 0.045, height * 0.045);
 
 
 
-  
+
 if (keyCode === LEFT_ARROW){
   hat = 10;
 } else if (keyCode === UP_ARROW){
   hat = 0.10;
 }
-  
+
 }
