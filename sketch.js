@@ -14,15 +14,26 @@ function setup() {
     background(220);
   frameRate(60);
   
-  
-  
+}
+
+function draw() {
+}
+
+function mousePressed(){
   lk = int(random(luck.length));
   et = int(random(enounter.length));
   ce = int(random(cause.length));
   fate = 'your luck is ' + luck[lk] + ' for ' + enounter[et] + ' you should ' + cause[ce] + '.';
-  
+  fateText();
   console.log(fate);
+  
+  
 }
 
-function draw() {
+function fateText(){
+  textAlign(CENTER);
+  text(fate, width*0.05, height *0.75);
+  
+  
+  
 }
