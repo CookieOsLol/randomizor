@@ -34,7 +34,7 @@ function fateText(){
 background(0);
 fill(255);
   textAlign(CENTER);
-  text(fate, width*0.05, height *0.75);
+  text(fate, width*0.5, height *0.75);
 
 
 
