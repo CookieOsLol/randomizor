@@ -45,7 +45,7 @@ function buttonPressed(){
   lk = int(random(luck.length));
   et = int(random(enounter.length));
   ce = int(random(cause.length));
-  fate = 'your luck is ' + luck[lk] + ' for ' + enounter[et] + ' you should ' + cause[ce] + '.';
+  fate = 'Your luck is ' + luck[lk] + ' for ' + enounter[et] + ' you should ' + cause[ce] + '.';
   fateText();
   console.log(fate);
 
