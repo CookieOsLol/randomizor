@@ -29,7 +29,7 @@ circle1 = new Circle();
 button.mousePressed(buttonPressed);
 //checkbox = createCheckbox('label', false);
 //checkbox.changed(myCheckedEvent);
-
+console.log(circle1);
 
 }
 
