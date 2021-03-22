@@ -16,6 +16,16 @@ display(){
 
 }
 
+
+move(){
+
+  //if (this.yPos<= height){
+
+this.yPos += 2;
+//} else //if (this.yPos > height){
+//this.yPos = 0;
+}
+
 }
 
 

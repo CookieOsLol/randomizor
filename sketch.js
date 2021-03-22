@@ -21,24 +21,23 @@ img2 = loadImage('assets/FortT.png');
 }
 
 function setup() {
-  createCanvas(400, 400);
+var canvas =  createCanvas(400, 400);
+canvas.parent('sketch-holder');
     background(0);
   frameRate(60);
 circle1 = new Circle();
-  button = createButton("BORK BORK")
+  button = createButton("BORK BORK");
+  button.parent('button-holder');
 button.mousePressed(buttonPressed);
 //checkbox = createCheckbox('label', false);
 //checkbox.changed(myCheckedEvent);
 console.log(circle1);
-
 }
 
 
 
 function draw() {
-image(img,width * 0.13,height * 0.13,300,300);
-circle1.display();
-circle2.display();
+
 
 }
 
@@ -57,11 +56,20 @@ function fateText(){
 background(0);
 fill(255);
   textAlign(CENTER);
-  textSize(10)
-  text(fate, width*0.5, height *0.95);
+  textSize(12);
+  fill(0,255,255);
+  text(fate, width*0.5, height *0.99);
+  fill(random(1,255));
+  ellipse(random(1,400),random(1,300),random(1,100),20;
+  ellipse(random(1,400),random(1,300),random(1,100),20;
+  ellipse(random(1,400),random(1,300),random(1,100),50;
+  ellipse(random(1,400),random(1,300),random(1,100),30;
+  ellipse(random(1,400),random(1,300),random(1,100),20;
+  ellipse(random(1,400),random(1,300),random(1,100),20;
 
 
 
+  image(img,width * 0.13,height * 0.13,300,300);
 }
 
 
