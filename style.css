@@ -17,7 +17,7 @@ color: cyan;
 canvas {
   margin: auto;
   display: block;
-  padding:20px;
+  padding:30px;
   boder-color:cyan;
   border-style: groove;
 }
@@ -25,7 +25,7 @@ canvas {
 button {
 margin: auto;
 display:block;
-padding: 10px;
+padding: 20px;
 color: cyan;
 background-color:black;
 boder-style:none;
