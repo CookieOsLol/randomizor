@@ -7,19 +7,40 @@ let et;
 let ce;
 
 let fate;
+let DogeT;
+let FortT;
+let button;
+//let checkbox;
 
+function preload(){
+
+img = loadImage('assets/DogeT.png');
+img2 = loadImage('assets/FortT.png');
+
+}
 
 function setup() {
   createCanvas(400, 400);
-    background(220);
+    background(0);
   frameRate(60);
 
+  button = createButton("BORK BORK")
+button.mousePressed(buttonPressed);
+//checkbox = createCheckbox('label', false);
+//checkbox.changed(myCheckedEvent);
+
+
 }
+
+
 
 function draw() {
+  image(img,width * 0.13,height * 0.13,300,300);
+
+
 }
 
-function mousePressed(){
+function buttonPressed(){
   lk = int(random(luck.length));
   et = int(random(enounter.length));
   ce = int(random(cause.length));
@@ -34,8 +55,34 @@ function fateText(){
 background(0);
 fill(255);
   textAlign(CENTER);
-  text(fate, width*0.5, height *0.75);
+  textSize(10)
+  text(fate, width*0.5, height *0.95);
 
 
 
 }
+
+
+
+//function Doge(){
+  //image(img,width * 0.13,height * 0.13,300,300);
+
+//}
+
+
+//function Fort(){
+  //image(img2,width * 0.00001,height * 0.00001,400,400);
+
+
+//}
+
+//function myCheckedEvent(){
+//if(this.checked()){
+  //image(img,width * 0.13,height * 0.13,300,300);
+//} else {
+//  image(img2,width * 0.00001,height * 0.00001,400,400);
+
+//}
+
+
+//}
