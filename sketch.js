@@ -5,7 +5,8 @@ let cause = ['do something good','do something bad','try something new','try som
 let lk;
 let et;
 let ce;
-
+let circle1
+let circle2
 let fate;
 let DogeT;
 let FortT;
@@ -23,7 +24,7 @@ function setup() {
   createCanvas(400, 400);
     background(0);
   frameRate(60);
-
+circle1 = new Circle();
   button = createButton("BORK BORK")
 button.mousePressed(buttonPressed);
 //checkbox = createCheckbox('label', false);
@@ -35,8 +36,9 @@ button.mousePressed(buttonPressed);
 
 
 function draw() {
-  image(img,width * 0.13,height * 0.13,300,300);
-
+image(img,width * 0.13,height * 0.13,300,300);
+circle1.display();
+circle2.display();
 
 }
 
